@@ -30,3 +30,55 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Kotlin build system files
+/build/
+!/build.gradle
+!/settings.gradle
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+!/gradle/
+
+# IntelliJ IDEA/Android Studio project files
+.idea/
+*.iml
+*.ipr
+*.iws
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries/
+/.idea/libraries/
+/.idea/modules.xml
+
+# OS-generated files
+Thumbs.db
+
+# Logs and crash reports
+*.log
+crashlytics.properties
+
+# Kotlin-specific files
+*.kotlin_metadata
+*.kotlin_module
+
+# Gradle
+.gradle/
+.gradle-cache/
+gradle-app.setting
+
+# Android Studio local settings
+local.properties
+
+# Generated files
+gen/
+tmp/
+*.class
+
+# Dependency directories
+/.mvn/
+/target/
+
+# Test reports
+/test-results/
+/test-output/
